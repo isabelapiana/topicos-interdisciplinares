@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.historia {
+  background: #ffe5ec;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 2rem;
+    color: #d14d72;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .creditos {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+
+  .descricao-final {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #333;
+    text-align: justify;
+  }
+}

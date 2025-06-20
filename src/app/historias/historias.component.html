@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="historia" *ngFor="let historia of historias">
+    <h2>{{ historia.titulo }}</h2>
+    <img [src]="historia.imagem" alt="{{ historia.titulo }}" />
+    <p class="creditos">
+      Imagem gerada por inteligência artificial via ArtGuru
+    </p>
+    <p [innerHTML]="historia.texto"></p>
+  </div>
+
+  <p class="descricao-final">
+    Ação de extensão desenvolvida pela aluna Isabela das Neves Piana com o
+    auxílio da professora Maria Julia das Neves como parte dos requisitos
+    necessários para a conclusão da disciplina Tópicos Interdisciplinares. O
+    presente site possui a finalidade de estimular a leitura pelos alunos e o
+    interesse pela tecnologia.
+  </p>
+</div>
