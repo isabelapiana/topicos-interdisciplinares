@@ -36,7 +36,7 @@ export class HistoriasComponent {
       A formiguinha imediatamente puxou a cigarra para dentro para salvá-la do frio. Entretanto, logo a rainha interveio e disse: "Já que nós formigas trabalhamos durante todo o verão, agora é a sua vez! Toque e cante para nós!".`,
     },
     {
-      titulo: 'O Leão que Tinha Medo',
+      titulo: 'O Leão e o Ratinho',
       imagem: 'assets/leao.png',
       texto: `Era uma vez, há muito tempo atrás, um ratinho muito esperto e brincalhão. Um dia, enquanto fazia muito barulho e brincava, acabou incomodando o rei dos animais, o leão.
       <br><br>
